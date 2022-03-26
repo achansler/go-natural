@@ -1,0 +1,229 @@
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-weight: 300;
+}
+
+.row-flex {
+  display: block;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.flexbox {
+  display: block;
+}
+
+footer,
+nav.flexbox {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px;
+  background-color: #fff;
+}
+
+nav.flexbox a {
+  margin: 0px 5px 0px 5px;
+  text-decoration: none;
+}
+
+.center-align-items {
+  align-items: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.half {
+  width: 100%;
+}
+
+div.no-padding {
+  padding-right: 0px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.padding {
+  padding: 5%;
+}
+
+.padding-extra {
+  padding: 0 0px 50px 0px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.beige {
+  background-color: rgb(249 246 232);
+}
+
+.light-blue {
+  background-color: rgb(232, 245, 251);
+}
+
+.gray {
+  background-color: rgb(244, 244, 244);
+}
+
+h1 {
+  font-size: 3.75rem;
+  line-height: 1;
+  margin: 0px 0px 20px 0px;
+  font-weight: 600;
+  padding: 50px 20px 0px 20px;
+}
+
+h2 {
+  padding: 0px 20px;
+}
+
+.large {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  padding: 0px 20px;
+}
+
+h4 {
+  padding: 0px 20px;
+}
+
+.large,
+p {
+  line-height: 1.4;
+}
+
+a {
+  color: #000;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  /* ...and now for the proper property */
+  transition: 0.5s;
+}
+
+a:hover {
+  color: rgb(28, 121, 98);
+}
+
+a.button:hover {
+  color: #000;
+  background-color: rgb(71 203 166);
+  cursor: pointer;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.green :is(h1, h2, h3. h4, p) {
+  color: #fff;
+}
+
+.button {
+  padding: 10px 32px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50px;
+  margin: 10px 0px 50px 20px;
+  display: inline-block;
+  border: 3px solid #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 60px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.logo {
+  max-width: 125px;
+  margin: auto;
+}
+
+.nav-links {
+  display: none;
+}
+
+.reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+}
+
+@media (min-width: 820px) {
+  .half {
+    width: 50%;
+  }
+
+  .flexbox {
+    display: flex;
+  }
+
+  .row-flex {
+    display: flex;
+  }
+
+  .padding-extra {
+    padding: 0 200px 50px 200px;
+  }
+
+  .logo {
+    margin: 0px;
+  }
+
+  .nav-links {
+    display: block;
+  }
+
+  nav.flexbox {
+    padding: 16px 25px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    padding: 0px 50px;
+  }
+
+  .button {
+    margin: 20px 0px 0px 50px;
+  }
+
+  .reverse {
+    flex-direction: row;
+  }
+}
