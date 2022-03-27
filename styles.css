@@ -62,7 +62,7 @@ img {
 }
 
 .padding-extra {
-  padding: 0 0px 50px 0px;
+  padding: 50px 0px 50px 0px;
 }
 
 .centered {
@@ -182,6 +182,11 @@ footer {
   padding: 25px;
 }
 
+.rating {
+  width: 100px;
+  padding: 0px 20px;
+}
+
 @media (min-width: 820px) {
   .half {
     width: 50%;
@@ -196,7 +201,7 @@ footer {
   }
 
   .padding-extra {
-    padding: 0 200px 50px 200px;
+    padding: 50px 200px 50px 200px;
   }
 
   .logo {
@@ -225,5 +230,9 @@ footer {
 
   .reverse {
     flex-direction: row;
+  }
+
+  .rating {
+    padding: 0px 50px;
   }
 }
